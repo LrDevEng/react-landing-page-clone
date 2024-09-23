@@ -23,7 +23,6 @@ function Eyecatcher() {
             <a href="/">
               <DownloadApple className={styles.downloadButton} />
             </a>
-
             <a href="/">
               <DownloadGoogle className={styles.downloadButton} />
             </a>
