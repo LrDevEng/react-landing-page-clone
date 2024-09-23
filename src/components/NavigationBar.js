@@ -11,10 +11,14 @@ function NavigationBar() {
       </div>
       <ul>
         <li>
-          <a href="/">Pricing</a>
+          <a className={styles.standard} href="/">
+            Pricing
+          </a>
         </li>
         <li>
-          <a href="/">Sign In</a>
+          <a className={styles.standard} href="/">
+            Sign In
+          </a>
         </li>
         <li>
           <div className={styles.button}>
