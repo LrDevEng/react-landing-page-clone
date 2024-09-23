@@ -10,6 +10,33 @@
   --color-corporate: #007bff;
 }
 
+@font-face {
+  font-family: 'Boston';
+  font-weight: bold;
+  src: url(./fonts/Boston-Bold.dd0c3bea.woff2) format('woff2');
+}
+
 html {
   font-family: proxima-soft, 'Helvetica Neue', 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Boston', sans-serif;
+  font-size: 4.5rem;
+  line-height: 1.1em;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #292f36;
+}
+
+h2 {
+  font-family: proxima-soft, 'Helvetica Neue', Roboto, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 1.25em;
+  color: #808d9f;
+  margin-top: 24px;
+  margin-bottom: 50px;
 }
