@@ -1,5 +1,15 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --color-corporate: #007bff;
+}
+
+html {
+  font-family: proxima-soft, 'Helvetica Neue', 'Roboto', sans-serif;
 }
