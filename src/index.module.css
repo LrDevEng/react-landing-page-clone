@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-corporate: #007bff;
+}
+
+@font-face {
+  font-family: 'Boston';
+  font-weight: bold;
+  src: url(./fonts/Boston-Bold.dd0c3bea.woff2) format('woff2');
+}
+
+html {
+  font-family: proxima-soft, 'Helvetica Neue', 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Boston', sans-serif;
+  font-size: 4.5rem;
+  line-height: 1.1em;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #292f36;
+}
+
+h2 {
+  font-optical-sizing: auto;
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 1.25em;
+  color: #808d9f;
+  margin-top: 24px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-family: 'Boston', sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 1.25em;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-top: 16px;
+  line-height: 1.25em;
+  color: rgb(41, 47, 54);
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-corporate);
+}
+
+button {
+  font-family: roxima-soft, 'Helvetica Neue', 'Roboto', sans-serif;
+  outline: none;
+  border: none;
+}

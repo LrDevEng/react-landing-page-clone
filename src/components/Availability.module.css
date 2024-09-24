@@ -1,0 +1,56 @@
+.available {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-bottom: 100px;
+
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.goodAfternoon {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.desktop {
+  border-radius: 15px;
+  width: 100%;
+  position: relative;
+  left: -25px;
+  max-width: 1050px;
+  border-image-width: 1;
+  border-color: rgb(41, 47, 54);
+  box-shadow: 0 0 30px rgba(149, 173, 209, 0.64);
+}
+
+.mobilePhone {
+  position: absolute;
+  right: 25px;
+  bottom: -60px;
+  width: 26%;
+}
+
+.phone {
+  width: 100%;
+  z-index: 1;
+}
+
+.video {
+  position: relative;
+  width: 85%;
+  height: 95%;
+  bottom: 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
