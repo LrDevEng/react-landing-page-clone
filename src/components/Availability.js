@@ -12,12 +12,12 @@ function Availability() {
       <div className={styles.goodAfternoon}>
         <img
           className={styles.desktop}
-          src="./goodAfternoon.png"
+          src="./images/goodAfternoon.png"
           alt="Desktop version of app."
         />
         <img
           className={styles.phone}
-          src="./mobileFrame.png"
+          src="./images/mobileFrame.png"
           alt="Mobile version of app."
         />
       </div>
@@ -32,7 +32,7 @@ function Availability() {
           backgroundColor="#fff"
           color="var(--color-corporate)"
           border="1px solid var(--color-corporate)"
-          icon="./chromeIcon.svg"
+          icon="./images/chromeIcon.svg"
         />
       </div>
     </section>

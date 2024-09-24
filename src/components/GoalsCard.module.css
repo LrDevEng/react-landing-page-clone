@@ -1,0 +1,22 @@
+.card {
+  width: 500px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 32px;
+  box-shadow: 0 5px 25px rgba(0, 96, 199, 0.3);
+
+  h3 {
+    margin-top: 40px;
+  }
+
+  p {
+    margin-top: 16px;
+    margin-bottom: 30px;
+  }
+}
+
+.icon {
+  font: inherit;
+  height: 60px;
+  width: 60px;
+}
