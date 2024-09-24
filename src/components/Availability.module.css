@@ -30,12 +30,23 @@
   box-shadow: 0 0 30px rgba(149, 173, 209, 0.64);
 }
 
-.phone {
+.mobilePhone {
   position: absolute;
   right: 25px;
   bottom: -60px;
   width: 26%;
+}
+
+.phone {
+  width: 100%;
   z-index: 1;
+}
+
+.video {
+  position: relative;
+  width: 85%;
+  height: 95%;
+  bottom: 10px;
 }
 
 .links {

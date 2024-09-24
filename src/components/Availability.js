@@ -15,11 +15,25 @@ function Availability() {
           src="./images/goodAfternoon.png"
           alt="Desktop version of app."
         />
-        <img
-          className={styles.phone}
-          src="./images/mobileFrame.png"
-          alt="Mobile version of app."
-        />
+        <div className={styles.mobilePhone}>
+          <video
+            className={styles.video}
+            playsInline={true}
+            autoPlay={true}
+            loop={true}
+            muted={true}
+          >
+            <track kind="captions" />
+            <source src="./videos/mobileVideo.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div className={styles.mobilePhone}>
+          <img
+            className={styles.phone}
+            src="./images/mobileFrame.png"
+            alt="Mobile version of app."
+          />
+        </div>
       </div>
       <div className={styles.links}>
         <LinkButton

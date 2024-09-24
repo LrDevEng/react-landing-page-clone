@@ -31,7 +31,7 @@
                 </g>
             </g>
         </g>
-        <!--<path id="Rectangle_2356" d="M0 0H366.749V140.659H0z" class="cls-4" transform="rotate(180 464.349 243.884)"/>-->
+        <path id="Rectangle_2356" d="M0 0H366.749V140.659H0z" class="cls-4" transform="rotate(180 464.349 243.884)"/>
         <rect id="Rectangle_2381" width="18.122" height="18.122" class="cls-5" rx="3" transform="translate(894.611 328.987)"/>
         <rect id="Rectangle_2379" width="18.122" height="18.122" class="cls-5" rx="3" transform="translate(809.611 328.987)"/>
         <rect id="Rectangle_2374" width="18.122" height="18.122" class="cls-6" rx="3" transform="translate(852.759 246.145)"/>
