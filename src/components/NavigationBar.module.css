@@ -8,7 +8,6 @@ nav {
   align-items: center;
   min-height: 75px;
   height: fit-content;
-  padding: 0 5%;
 
   ul {
     display: flex;
@@ -60,4 +59,9 @@ nav {
   &:hover {
     background-color: var(--color-nav-hover);
   }
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
 }

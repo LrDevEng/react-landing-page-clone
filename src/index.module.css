@@ -40,3 +40,14 @@ h2 {
   margin-top: 24px;
   margin-bottom: 50px;
 }
+
+a {
+  text-decoration: none;
+  color: var(--color-corporate);
+}
+
+button {
+  font-family: roxima-soft, 'Helvetica Neue', 'Roboto', sans-serif;
+  outline: none;
+  border: none;
+}
