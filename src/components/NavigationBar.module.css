@@ -12,7 +12,6 @@ nav {
   ul {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap-reverse;
     align-items: center;
   }
 
@@ -20,6 +19,7 @@ nav {
     list-style-type: none;
 
     .standard {
+      text-wrap: nowrap;
       text-decoration: none;
       color: var(--color-corporate);
       padding: 5px 30px;
@@ -31,6 +31,10 @@ nav {
         color: var(--color-nav-hover);
       }
     }
+  }
+
+  @media (max-width: 720px) {
+    flex-direction: column;
   }
 }
 
@@ -49,6 +53,7 @@ nav {
   margin: 0px 0px 0px 10px;
 
   a {
+    text-wrap: nowrap;
     text-decoration: none;
     color: #fff;
     padding: 5px 30px;
@@ -64,4 +69,9 @@ nav {
 .container {
   margin: auto;
   max-width: 1200px;
+
+  @media (max-width: 1300px) {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }

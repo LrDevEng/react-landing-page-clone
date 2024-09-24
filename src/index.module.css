@@ -18,6 +18,7 @@
 
 html {
   font-family: proxima-soft, 'Helvetica Neue', 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 h1 {
