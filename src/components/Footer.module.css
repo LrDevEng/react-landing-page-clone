@@ -1,9 +1,14 @@
+.container {
+  background-color: rgb(238, 243, 251);
+}
+
 .footer {
+  margin: auto;
+  max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 400px;
   grid-column-gap: 25px;
   padding: 125px 50px;
-  background-color: rgb(238, 243, 251);
 
   @media (max-width: 720px) {
     grid-template-columns: 1fr;

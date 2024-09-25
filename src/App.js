@@ -4,6 +4,7 @@ import Eyecatcher from './components/Eyecatcher';
 import Footer from './components/Footer';
 import Goals from './components/Goals';
 import NavigationBar from './components/NavigationBar';
+import Pricing from './components/Pricing';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Availability />
         </section>
         <Goals />
+        <Pricing />
       </main>
       <footer>
         <Footer />
